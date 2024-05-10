@@ -17,6 +17,10 @@ form.addEventListener("submit", function(e){
         alert("sorry bro")
         e.preventDefault()
     }
-
-
 })
+function logEvent(e) {
+    console.log(e.type)
+    console.log(e.currentTarget.value)
+}
+form.name.addEventListener("keyup", logEvent);
+form.name.addEventListener("keydown", logEvent)
