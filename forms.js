@@ -1,4 +1,6 @@
 const wes = document.querySelector(".wes");
+const form = document.querySelector(`[name="signup"]`);
+
 
 wes.addEventListener("click", function (e){
     console.log("You clicked it!");
@@ -7,4 +9,9 @@ wes.addEventListener("click", function (e){
         e.preventDefault()
     }
     console.log(shouldChangePage)
+})
+
+form.addEventListener("submit", function(e){
+    console.log(e)
+    e.preventDefault()
 })
