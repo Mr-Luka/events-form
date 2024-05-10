@@ -32,6 +32,8 @@ function handleSubmit (e){
     const email = e.currentTarget.email.value;
     if(email.includes("gmail")){
         alert("Did you use to have hotmail.com ?");
+    } else if (email.includes("hotmail")){
+        alert("You are an old baby aren't ya?");
     }
 }
 
