@@ -23,4 +23,5 @@ function logEvent(e) {
     console.log(e.currentTarget.value)
 }
 form.name.addEventListener("keyup", logEvent);
-form.name.addEventListener("keydown", logEvent)
+form.name.addEventListener("keydown", logEvent);
+form.name.addEventListener("focus", logEvent)
