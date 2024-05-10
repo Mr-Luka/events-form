@@ -25,3 +25,4 @@ function logEvent(e) {
 form.name.addEventListener("keyup", logEvent);
 form.name.addEventListener("keydown", logEvent);
 form.name.addEventListener("focus", logEvent)
+form.name.addEventListener("blur", logEvent)
