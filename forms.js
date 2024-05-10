@@ -12,6 +12,10 @@ wes.addEventListener("click", function (e){
 })
 
 form.addEventListener("submit", function(e){
-    console.log(e)
     e.preventDefault()
+    console.log(e.currentTarget.name.value);
+    console.log(e.currentTarget.email.value);
+    console.log(e.currentTarget.agree.value)
+
+
 })
